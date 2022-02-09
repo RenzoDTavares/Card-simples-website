@@ -1,0 +1,84 @@
+
+@font-face{
+    font-family: 'Dancing Script', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+}
+html {
+    height: 100%;
+}
+
+body{
+    background-image: url('./images/animation.gif');
+    background-size: cover;
+    
+    
+    min-height: 100%;
+    padding:0;
+    margin:0;
+}
+
+ .menu{
+    width: 100vw;
+    height: 100vh;   
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    width: 380px;
+    height: 530px;
+    background: #eef0f1;   
+    border: solid 6px #007bff;  
+    border-radius: 1em;
+    position:absolute;
+    
+}
+
+.photo{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 1px solid black;   
+    margin: 10px auto 10px auto; 
+    display: block;
+
+}
+
+.social a {
+    padding: 0 .5em;
+    
+  }
+
+.social{
+    margin: 20px auto 10px 13%;
+}
+
+.name{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.pro{
+    font-weight: bold;
+}
+
+.text{
+    text-align: center;
+}
+
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(images/torre.jpg) no-repeat;
+	background-size: cover; 
+}
